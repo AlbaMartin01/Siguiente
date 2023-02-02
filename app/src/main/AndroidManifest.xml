@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Siguiente"
         tools:targetApi="31">
         <activity
+            android:name=".Play"
+            android:exported="false" />
+        <activity
+            android:name=".Call"
+            android:exported="false" />
+        <activity
+            android:name=".Maps"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

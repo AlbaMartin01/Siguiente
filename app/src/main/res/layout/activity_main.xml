@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp">
 
-            <Button
+            <Button android:id="@+id/botonMaps"
                 android:layout_width="100dp"
                 android:layout_height="140dp"
                 android:drawableTop="@drawable/maps"
@@ -69,7 +69,7 @@
                 android:layout_gravity="center"
                 android:layout_marginRight="5dp"/>
 
-            <Button
+            <Button android:id="@+id/botonCall"
                 android:layout_width="100dp"
                 android:layout_height="140dp"
                 android:drawableTop="@drawable/telefono"
@@ -81,10 +81,10 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"/>
 
-            <Button
+            <Button android:id="@+id/botonPlay"
                 android:layout_width="100dp"
                 android:layout_height="140dp"
-                android:drawableTop="@drawable/play"
+                android:drawableTop="@drawable/play2"
                 android:backgroundTint="#ffffff"
                 android:text="Play"
                 android:textColor="@color/grey"
